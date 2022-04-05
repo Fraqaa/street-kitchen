@@ -13,7 +13,7 @@ body{
 h1.title{
     background-color: #e90202;
     text-transform: capitalize;
-    color: darkred;
+    color: rgb(255, 230, 5);
     text-align: left;
     font-weight:600 ;
     font-size: 40px;
@@ -21,10 +21,43 @@ h1.title{
     font-family:georgia;
 }
 h1.title:hover{
+   
     color: rgb(255, 89, 0);
     text-decoration: underline;
     transition: ease-in-out .1s;
     font-family: Arial Narrow Bold;
     font-weight: 900;
-    
+}    
+.navbar{
+   background-color: #e90202;
+    overflow: hidden;
 }
+
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 5px dotted beige;
+    padding: 5px 10px;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: beige;
+    font-weight: 800;
+    font-size: 24px;
+    align-items: center ;
+    justify-content: center;
+}
+ .navbar ul li a:hover{
+     border-radius: 10%;
+    background-color: rgb(255, 89, 0);
+    text-decoration: underline;
+    color:#e90202 ;
+    transition: .7s ease-in-out;
+   }
+   .navbar ul li a i {
+       padding: 5px;
+       color: beige;
+   }
